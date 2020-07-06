@@ -1,0 +1,101 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "Empresa",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true
+    },
+    {
+        "name": "ContactoReferencia",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "CUIT",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|unique:posts|min:11|max:99999999999",
+        "searchable": true
+    },
+    {
+        "name": "Direccion",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Direccion2",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Pais",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Provincia",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Ciudad",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "TelefonoPrincipal",
+        "dbType": "integer",
+        "htmlType": "number",
+        "validations": "required|min:10|max:9999999999",
+        "searchable": true
+    },
+    {
+        "name": "TelefonoSecundario",
+        "dbType": "integer",
+        "htmlType": "number",
+        "validations": "min:10|max:9999999999",
+        "searchable": true
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "email",
+        "searchable": true
+    },
+    {
+        "name": "Comentario",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Actividad",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "Activo",
+        "dbType": "boolean",
+        "htmlType": "checkbox,1"
+    }
+]
